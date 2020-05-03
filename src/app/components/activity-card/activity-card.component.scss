@@ -1,0 +1,31 @@
+ion-card-content, ion-grid, ion-row {
+    height: 100%;
+}
+
+ion-grid {
+    height: 103px;
+    margin-left: 15px;
+}
+
+.avatar {
+    height: 59px;
+    width: 59px;
+    border-radius: 100%;
+    border: 2px solid white;
+    background-color: #515E63;
+}
+
+#second-row {
+    margin-left: 6.5px;
+}
+
+.job {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.company {
+    font-size: 9px;
+    color: #515E63;
+    font-weight: bold;
+}

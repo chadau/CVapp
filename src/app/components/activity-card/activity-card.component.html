@@ -1,0 +1,23 @@
+<ion-card class="card gradient-black ion-no-margin">
+  <ion-card-content class="ion-no-padding">
+    <ion-grid class="ion-no-padding">
+      <ion-row class="ion-no-padding ion-align-items-center">
+        <ion-col class="centered" size="2">
+          <div class="avatar"></div>
+        </ion-col>
+        <ion-col id="second-row">
+          <div>
+            <div>
+              <ion-text color="light" class="job">
+                {{this.activity.job}}
+              </ion-text>
+            </div>
+            <div class="company">
+              {{this.activity.company}}
+            </div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card-content>
+</ion-card>

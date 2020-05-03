@@ -1,17 +1,10 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-grid>
+    <ion-row class="ion-no-padding">
+      <app-profile-card></app-profile-card>
+      <app-contact-card icon="home" text="Timpurinkuja 1 A 013, Espoo, 02650"></app-contact-card>
+      <app-contact-card icon="mail" text="lucas.cheminade@epitech.eu"></app-contact-card>
+      <app-contact-card icon="call" text="+33664448414"></app-contact-card>
+    </ion-row>
+  </ion-grid>
 </ion-content>

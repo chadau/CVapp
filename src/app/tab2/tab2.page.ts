@@ -1,3 +1,4 @@
+import { Activity } from './../models/activity';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,6 +8,11 @@ import { Component } from '@angular/core';
 })
 export class Tab2Page {
 
+  public activities: Activity[] = [
+    {"company": "Ergoss", "job": "DevOps Engineer"},
+    {"company": "Epitech", "job": "Teaching assistant"},
+    {"company": "Inforsud Diffusion", "job": "Fullstack Developer"}
+  ];
   constructor() {}
 
 }
